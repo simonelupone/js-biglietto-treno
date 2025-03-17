@@ -17,3 +17,7 @@ console.log('Cutoff under:', under, 'Cutoff over:', over);
 // e inizializzo una variabile con l'input dell'utente
 let userDistance = parseInt(prompt('Inserire i km da percorrere'));
 console.log('Distanza utente:', userDistance);
+
+// determino il prezzo del biglietto in base ai km
+let price = priceCoeff * userDistance;
+console.log('Prezzo base:', price);
