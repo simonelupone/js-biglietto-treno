@@ -41,3 +41,6 @@ if (userAge < under) {
     console.log('Prezzo base:', finalPrice);
 }
 console.log('finalPrice', parseFloat(finalPrice.toFixed(2)));
+
+// mostro il prezzo finale
+alert(`Il prezzo è: € ${parseFloat(finalPrice.toFixed(2))}`);
