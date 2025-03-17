@@ -21,3 +21,8 @@ console.log('Distanza utente:', userDistance);
 // determino il prezzo del biglietto in base ai km
 let price = priceCoeff * userDistance;
 console.log('Prezzo base:', price);
+
+// chiedo all'utente l'età per determinare lo sconto
+// e la salvo in una variabile
+let userAge = prompt('Inserire età');
+console.log('Età utente:', userAge);
