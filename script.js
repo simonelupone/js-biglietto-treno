@@ -7,3 +7,8 @@ console.log('Coefficiente prezzo base:', priceCoeff);
 let underCoeff = 0.80;
 let overCoeff = 0.60;
 console.log('Coefficiente prezzo under:', underCoeff, 'Coefficiente prezzo over:', overCoeff);
+
+// specifico i cutoff per le età
+let under = 18;
+let over = 65;
+console.log('Cutoff under:', under, 'Cutoff over:', over);
