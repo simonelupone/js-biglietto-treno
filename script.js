@@ -12,3 +12,8 @@ console.log('Coefficiente prezzo under:', underCoeff, 'Coefficiente prezzo over:
 let under = 18;
 let over = 65;
 console.log('Cutoff under:', under, 'Cutoff over:', over);
+
+// chiedo all'utente i km da percorrere
+// e inizializzo una variabile con l'input dell'utente
+let userDistance = parseInt(prompt('Inserire i km da percorrere'));
+console.log('Distanza utente:', userDistance);
